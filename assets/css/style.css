@@ -1,0 +1,39 @@
+.map{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #7ba238;
+    border-radius: 2%;
+    width: 250px;
+    height: 400px;
+    margin-right: 50px;
+    box-shadow: 0 0 10px rgba(31, 31, 31,0.8);
+    border: 0.1px solid rgb(48, 44, 44);
+}
+.img{
+    height: 150px;
+    width: 200px;
+}
+input{
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+h3,p{
+    color: #ffffff;
+}
+p{
+    justify-items: flex-start;
+}
+button{
+    background-color: #e2a30b;
+    height: 25px;
+    width: 150px;
+}
