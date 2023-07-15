@@ -22,6 +22,16 @@
     height: 150px;
     width: 200px;
 }
+.color{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.dc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 input{
     border-radius: 5px;
     margin-bottom: 5px;
@@ -36,4 +46,8 @@ button{
     background-color: #e2a30b;
     height: 25px;
     width: 150px;
+}
+#color_fnl{
+    margin: 5px;
+    border: 1px solid black;
 }

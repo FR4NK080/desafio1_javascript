@@ -11,15 +11,18 @@
         <div class="card">
             <img src="./assets/img/compu.png" class="img" alt="imagen de computador gamer">
             <h3>Laptop Gamer AMD</h3>
-            <input placeholder="Inserte cantidad"></input>
-            <input placeholder="Inserte color"></input>
-            <p>Precio: $40.000</p>
-            <button>Calcular Total</button>
+            <input placeholder="Inserte cantidad" id="cantidad"></input>
+            <input placeholder="Inserte color" id="color"></input>
+            <p>Precio: $400.000 c/u</p>
+            <button onclick="calculo()">Calcular Total</button>
         </div>
         <div>
-            <h2>Total: <span id="total"></span></h2>
-            <h2>Cantidad: <span id="cantidad"></span> </h2>
-            <h2>Color: <span id="color"></span></h2>
+            <h2>Total: <span id="total" type="number">____________</span></h2>
+            <h2>Cantidad: <span id="cantidad_fnl">________</span> </h2>
+            <div class="dc">
+            <h2>Color:</h2> 
+            <div id="colorf" class="color"></div>
+            </div>
         </div>
     </div>
 </body>
